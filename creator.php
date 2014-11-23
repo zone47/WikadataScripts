@@ -2,7 +2,7 @@
 /* / */
 // Script for getting the Wikidata Q item of a Creator Template in Commons if it exists
 // Works for name redirections 
-// For using it on zone47.com :
+// For using it direclty on zone47.com :
 // http://zone47.com/dev/creator.php?s=Vincent van Gogh
 // With php script:
 // $data=file_get_contents("http://zone47.com/dev/creator.php?s=Vincent%20van%20Gogh",true);
