@@ -2,7 +2,7 @@
 /* / */
 // Script for getting the Wikidata Q item of an Institution Template in Commons if it exists
 // Works for name redirections 
-// For using it one zone47.com :
+// For using it direclty on zone47.com :
 // http://zone47.com/dev/institution.php?s=Musée des Augustins de Toulouse
 // With php script:
 // $data=file_get_contents("http://zone47.com/dev/institution.php?s=Musée%20des%20Augustins%20de%20Toulouse",true);
