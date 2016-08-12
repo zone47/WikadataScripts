@@ -1,6 +1,7 @@
 <?php
 /* / */
-/* Script pour récupérer à partir d'une catégorie de Wikimedia Commons et de ses sous-catégories, les infos suivantes de chaque fichier image à partir des modèles "artwork" et "information", ainsi que les catégories  :
+/* Script pour récupérer à partir d'une catégorie de Wikimedia Commons et de ses sous-catégories, 
+les infos suivantes de chaque fichier image à partir des modèles "artwork" et "information", ainsi que les catégories  :
 - artist (alias : artist_display_name, artist_name, author)
 - Qartist 
 - title
@@ -19,7 +20,9 @@
 - object (object_work_type)
 - source
 - categories
-Étrangement, après l'avoir utilisé sur pas mal de fichiers ça semble bien fonctionner. Si vous voulez l'améliorer, mieux vaudrait éviter, garder l'idée parce qu'on besoin de ce genre de trucs et repartir sur quelque chose d'autrement plus solide :-)
+Étrangement, après l'avoir utilisé sur pas mal de fichiers ça semble bien fonctionner.
+Si vous voulez l'améliorer, mieux vaudrait éviter, garder l'idée parce qu'on besoin de ce genre de trucs 
+et repartir sur quelque chose d'autrement plus solide :-)
 
 --
 -- Structure de la table `wcfiles`
