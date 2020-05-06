@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://data.culture.fr/thesaurus/resource/ark:/67717/T96#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:mcc="http://data.culture.fr/thesaurus/elements/1.0/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:map="http://www.w3c.rl.ac.uk/2003/11/21-skos-mapping#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ark="http://data.culture.fr/thesaurus/resource/ark:/67717/"
+	xmlns:iso-thes="http://purl.org/iso25964/skos-thes#"
+	xmlns:xl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:ginco="http://data.culture.fr/thesaurus/ginco/ns/"
+	xmlns:ark6="http://data.culture.fr/thesaurus/resource/ark:/67717/6"
+	xmlns:ark7="http://data.culture.fr/thesaurus/resource/ark:/67717/2"
+	xmlns:ark2="http://data.culture.fr/thesaurus/resource/ark:/67717/083"
+	xmlns:ark3="http://data.culture.fr/thesaurus/resource/ark:/67717/37"
+	xmlns:ark4="http://data.culture.fr/thesaurus/resource/ark:/67717/361"
+	xmlns:ark5="http://data.culture.fr/thesaurus/resource/ark:/67717/45884">
+<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/causeEffet">
+	<rdfs:label>causeEffet</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/actionProduction">
+	<rdfs:label>actionProduction</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/broaderGeneric">
+	<rdfs:label>broaderGeneric</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+	<owl:inverseOf>
+		<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/narrowerGeneric">
+			<rdfs:label>narrowerGeneric</rdfs:label>
+			<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+			<owl:inverseOf rdf:resource="http://data.culture.fr/thesaurus/ginco/ns/broaderGeneric"/>
+		</owl:ObjectProperty>
+	</owl:inverseOf>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/broaderPartitive">
+	<rdfs:label>broaderPartitive</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+	<owl:inverseOf>
+		<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/narrowerPartitive">
+			<rdfs:label>narrowerPartitive</rdfs:label>
+			<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+			<owl:inverseOf rdf:resource="http://data.culture.fr/thesaurus/ginco/ns/broaderPartitive"/>
+		</owl:ObjectProperty>
+	</owl:inverseOf>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/narrowerInstantive">
+	<rdfs:label>narrowerInstantive</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+	<owl:inverseOf>
+		<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/broaderInstantive">
+			<rdfs:label>broaderInstantive</rdfs:label>
+			<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+			<owl:inverseOf rdf:resource="http://data.culture.fr/thesaurus/ginco/ns/narrowerInstantive"/>
+		</owl:ObjectProperty>
+	</owl:inverseOf>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/TermeAssocie">
+	<rdfs:label>TermeAssocie</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+</owl:ObjectProperty>
+<owl:DatatypeProperty rdf:about="http://data.culture.fr/thesaurus/ginco/ns/CustomConceptAttribute">
+	<rdfs:label>CustomConceptAttribute</rdfs:label>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://purl.org/iso25964/skos-thes#status">
+	<rdfs:label>status</rdfs:label>
+</owl:DatatypeProperty>
+<skos:ConceptScheme rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506">
+	<dc:title>Liste d'autorités Genèse - Joconde</dc:title>
+	<dc:creator rdf:nodeID="node1dn1djtumx19"/>
+	<dc:contributor>Sophie Daënens et Jeannette Ivain</dc:contributor>
+	<dc:publisher>Ministère de la culture et de la communication</dc:publisher>
+	<dc:description>Le champ "Genèse" comprend plusieurs notions : le contexte de création, le stade de création et les reproductions, les œuvres ou objets associés.</dc:description>
+	<dct:modified>2019-10-17T09:11:26+02:00</dct:modified>
+	<dc:type>Thésaurus</dc:type>
+	<dc:rights>CC-BY-SA</dc:rights>
+	<dc:subject>Attention : en raison d’un bogue, les vocabulaires apparaissent sous une forme appauvrie (absence de majuscules et d’accents).</dc:subject>
+	<dc:subject>Toutefois, la forme intègre réapparaît lors du téléchargement.</dc:subject>
+	<dc:coverage></dc:coverage>
+	<dc:language>fr-FR</dc:language>
+	<skos:hasTopConcept rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<skos:hasTopConcept rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<skos:hasTopConcept rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<skos:hasTopConcept rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<skos:hasTopConcept rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-158"/>
+	<skos:hasTopConcept rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-155"/>
+	<skos:hasTopConcept rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/2b2b0a9a-8d0b-4ee4-939d-2d4899bc0584"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<dc:relation></dc:relation>
+	<dc:source></dc:source>
+	<dct:issued>Publication</dct:issued>
+	<dct:dateSubmitted>2019-10-17T09:12:04.368+02:00</dct:dateSubmitted>
+</skos:ConceptScheme>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-10">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">épreuve d'essai</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-8"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/30c245b5-4576-4d09-bd4b-dadf56db5125"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-8">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">épreuve</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-10"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-9"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-22"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-23"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ce0b7e2c-317b-44e7-8f01-e96bd929e633"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/30c245b5-4576-4d09-bd4b-dadf56db5125">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">épreuve d'essai</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-85">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de décor de tissu</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-77"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/6d4130de-b254-4de1-89a6-e4fbde3ccbef"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-77">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de décor</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-85"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-84"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-82"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-81"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-170"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<skos:altLabel xml:lang="fr-fr">projet de décoration</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/e896a404-fdaf-4562-84cc-bf97dc677b9f"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ab652ee4-b366-4a6a-b30e-eb82e4984922"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/6d4130de-b254-4de1-89a6-e4fbde3ccbef">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de décor de tissu</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-9">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">épreuve barrée</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-8"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/0deac57f-5934-4b66-9cdb-32729717ce16">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">épreuve barrée</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-71">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">peinture mise aux carreaux</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ab026796-269b-414d-ae34-b119915cea54"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">oeuvre préparatoire</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-71"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-48"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-72"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-55"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-47"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-54"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-53"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/bc445006-5d72-402d-8818-a4fb7c65ef63"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ab026796-269b-414d-ae34-b119915cea54">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">peinture mise aux carreaux</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-122">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">édition limitée</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/92ad4c30-5f1a-41ea-8b02-4195622e315c"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">édition</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-122"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-119"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-117"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-121"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-120"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/73cf62a1-c0b4-4e5e-9f62-9145b92fe7d7"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<skos:altLabel xml:lang="fr-fr">épreuve d'édition</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/51ceba61-d283-49ec-85a0-92fc38cc7f6f"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/e4c2d111-c9e4-436e-b79d-37471fe5f673"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/92ad4c30-5f1a-41ea-8b02-4195622e315c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">édition limitée</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-162">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">moulage</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/42c83c11-99a8-4431-be8f-1d3198de1b13"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">oeuvre de reproduction</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-162"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-136"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-125"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-128"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-130"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-137"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-126"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-124"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-135"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-132"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-104"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-131"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-164"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-138"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-127"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/763c6374-4c11-472d-9228-2b9532802dc6"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/42c83c11-99a8-4431-be8f-1d3198de1b13">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">moulage</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-169">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">pièce d'essai</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ea4b291d-cbcf-4895-a239-3c0c3026ec8b"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">contexte de création</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-8"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-169"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-25"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-44"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-2"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-3"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-5"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-45"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-24"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-168"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-163"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-43"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/39e14102-ed6b-447b-a03a-59ca4545e10e"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ea4b291d-cbcf-4895-a239-3c0c3026ec8b">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">pièce d'essai</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-25">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">montage</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-175"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/039cb8b6-ffe1-422f-86cf-4ec0522c0915"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-175">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">photomontage</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-25"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/3e4b6a1f-4a31-4cc7-bbf7-a24a9abaeb06"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/039cb8b6-ffe1-422f-86cf-4ec0522c0915">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">montage</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-119">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">2e édition</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/01726dfe-e087-46e1-836e-5f7d25071f33"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-117">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">1e édition</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116"/>
+	<skos:altLabel xml:lang="fr-fr">1ère édition</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/5254f94e-6229-4186-b682-e0437003d138"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/246240f1-efb6-4010-9dca-d5cdc25aea11"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/51ceba61-d283-49ec-85a0-92fc38cc7f6f">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">édition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/e4c2d111-c9e4-436e-b79d-37471fe5f673">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">épreuve d'édition</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-121">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">4e édition</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/6ccc1551-db5d-4f70-8833-5a1729511be6"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-120">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">3e édition</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/92d66c38-969a-4ce4-a5fa-0c50925b7ff8"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-142">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en glace peinte</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/34846820-cc2f-48f6-976e-2cda48f79359"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">oeuvre reproduite</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-142"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-149"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-152"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-140"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-153"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-148"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-150"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-146"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-143"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-141"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-151"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-144"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-154"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-147"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-145"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/92f6fecd-a5f7-44f0-bc54-6e5d0886ab33"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/34846820-cc2f-48f6-976e-2cda48f79359">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en glace peinte</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-149">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit sur textile</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/bea54c15-4383-4d99-a922-8f7a9b03af5b">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">reproduit sur textile</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-44">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">prototype</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/034f9970-5f4f-43e1-821e-42506b821294">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">prototype</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-51">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">dessin piqué pour le report</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-48"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/a3651687-c4f7-45a1-9118-7381e0618ead"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-48">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">dessin pour le report</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-51"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-50"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-52"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-49"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/59e6c651-aa7e-4f9d-a36e-6af019b5c27f"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/a3651687-c4f7-45a1-9118-7381e0618ead">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">dessin piqué pour le report</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-152">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">traduit en mosaïque</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/564bc8eb-6794-4322-9d69-5676ec5ebf44">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">traduit en mosaïque</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-140">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en céramique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/c9260dc2-d438-4ea9-bb84-1158810dfa2f"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-153">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">traduit en sculpture</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/03ecfec3-c1a3-42c3-a11e-9a2568b4ca51"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-148">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en zincographie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/b83f3760-a935-464b-b031-d56c20beb69a"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-150">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">traduit en dentelle</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/71227a3e-9504-486f-be28-69ca0edba51e"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-146">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en procédé photomécanique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/86a50378-da94-46c5-88b3-f10f33200c3e"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/92f6fecd-a5f7-44f0-bc54-6e5d0886ab33">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">oeuvre reproduite</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-143">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en gravure</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/f2b69d6b-3224-425a-99d1-99f08c551330"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-141">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en dessin</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/1f3aeff3-6c91-4161-ad8f-376b53fc4262"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-151">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">traduit en ébénisterie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/70de4f16-c0ff-47ca-a0ad-987765850170"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-144">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en lithographie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/332c0547-843b-404f-9388-b560b770ff52"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-154">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">traduit en tapisserie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/1f98c5a9-af54-490d-80b0-6c49de88a284"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-147">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en photographie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/b0dc14e2-b41b-4faa-b0dc-653b34960e0f"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-145">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduit en peinture</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-139"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/b01ba8e4-7aec-4edc-98fa-4864cbd20d64"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-2">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">bon à tirer</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ff07f453-e6cd-4053-98cb-a8162d897a3a"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-3">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">commande</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/36a3bc4c-0318-4d41-8b0d-d9e0d3bb8d39"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-5">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">décor déposé</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-7"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-6"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/7975fe32-1095-40d6-86ab-8e017daf6e27"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">oeuvre primée à un concours</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-30"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-41"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-29"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-32"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-28"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-31"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-27"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<skos:altLabel xml:lang="fr-fr">concours</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/68b5672f-e4d4-4902-9a22-b600113b7389"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/8717c4cd-8b2c-404a-adb6-7e97f4facd8a"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/39e14102-ed6b-447b-a03a-59ca4545e10e">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">contexte de création</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-45">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">tirage d'époque</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/a5b05e74-99bf-48f0-b257-54fe4d5815d9"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-24">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">marcottage</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/524d7a82-4cdc-4838-bcd3-645ec39029dc"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-168">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reconstitution</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/20c5da24-42b6-4d78-af25-205f2ca1f998"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-163">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">édition originale</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/19a27e96-4592-4023-a99c-f064d09ed532"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-43">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">pièce unique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-1"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/00ac3c42-29f6-47fc-b590-dfbfcaa0b6ff"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-65">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">modèle d'atelier</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/c726b7a5-ea2e-439f-ae97-8f14e7c8c0b7"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">modèle</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-65"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-59"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-64"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-63"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-61"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-60"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-67"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-57"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<skos:altLabel xml:lang="fr-fr">poncif</skos:altLabel>
+	<skos:altLabel xml:lang="fr-fr">carton</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/6d4890be-9fa3-436b-94dc-2e3ff98bdf20"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/2ca2de38-c9b0-4a81-aeae-3ae3397f58b2"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/548b2ba9-ea00-496e-af01-5eba57201f52"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c726b7a5-ea2e-439f-ae97-8f14e7c8c0b7">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">modèle d'atelier</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-30">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">morceau d'agrément</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/412e613f-3efe-4f2e-aef2-bd78e6537773">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">morceau d'agrément</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-84">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de décor de paquebot</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-77"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/077520f7-f6f7-447b-a9d2-9be092f9d291">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">projet de décor de paquebot</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">épreuve d'état</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-18"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-13"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-20"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-15"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-14"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-165"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-21"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-16"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-17"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-12"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-19"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-176"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-8"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/e5c8222f-81b4-4a35-87b3-54a8f7d8719f">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">épreuve d'état</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-18">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">9e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/12a350c8-251c-40bb-9c5e-6fabeecb776f"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-13">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">2e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ffe41469-d8cd-4c6b-8117-ccd68c5ba445"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-20">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">état avant la dédicace</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/7f427e26-bca7-4eb3-88ef-6901cd6c3898"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-15">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">4e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/32e3ad45-ae92-41c0-b703-ba6fcac9ef3c"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-14">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">3e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/962bd2d1-79b1-4b86-a329-2f88ea4a73a0"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-165">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">6e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/a3638828-4405-4cce-a7c9-3f1e2c946594"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-21">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">état avant la lettre</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/6badb6cb-3d77-452a-94be-a48cdfd9cb6b"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-16">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">5e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/e8daaffa-d354-4050-be7d-73680371cb21"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-17">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">7e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/190f8eab-1b36-4790-9347-f6325741c807"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-12">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">1er état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/206e72d9-4cf9-4d14-848e-c641c3486b1c"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-19">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">épreuve d'artiste</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/137658dc-97d3-4fa0-a78c-9ac308b7e61e"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-176">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">8e état</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-11"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/3c9466b5-930a-43e4-8d89-d27a935ed9b3"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-173">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de costume</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/8705e66c-6575-43fd-b7d0-cea5de801a7b"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-77"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-173"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-76"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-94"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-92"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-89"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-75"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-171"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-167"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-87"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-74"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-95"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-166"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-93"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/299e97c2-20df-4b56-ae44-08789614fd4b"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/8705e66c-6575-43fd-b7d0-cea5de801a7b">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de costume</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-158">
+	<dct:modified>2019-02-14T15:49:54+01:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">oeuvre inachevée</skos:prefLabel>
+	<skos:altLabel xml:lang="fr-fr">inachevée</skos:altLabel>
+	<skos:altLabel xml:lang="fr-fr">objet inachevé</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/4f2e8855-c901-41c5-b7da-ea88affa36e9"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/3b158b72-35b7-464c-979c-bd94348bc6cc"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/1a5f3985-698e-4e58-9616-17eae469ef72"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/4f2e8855-c901-41c5-b7da-ea88affa36e9">
+	<dct:modified>2019-02-14T15:49:54+01:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">oeuvre inachevée</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/3b158b72-35b7-464c-979c-bd94348bc6cc">
+	<dct:modified>2019-02-14T15:49:54+01:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">objet inachevé</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/1a5f3985-698e-4e58-9616-17eae469ef72">
+	<dct:modified>2019-02-14T15:49:54+01:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">inachevée</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/20c5da24-42b6-4d78-af25-205f2ca1f998">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reconstitution</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/f2b69d6b-3224-425a-99d1-99f08c551330">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en gravure</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-72">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">pochade</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/0518ee52-8c72-4941-9497-79feff3bd1e8"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-55">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">étude</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/4537746b-97b1-42f3-8efc-6c8f5d8c6b61"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-47">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">croquis</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/9276e305-35c5-4fde-a9b5-8e96b44a6fc3"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/bc445006-5d72-402d-8818-a4fb7c65ef63">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">oeuvre préparatoire</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-54">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">esquisse</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/023ab7cc-e572-4564-874c-c430c818d8bb"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-53">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">ébauche</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-46"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/04454023-9be9-49ae-a2e2-b6947956e0eb"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/19a27e96-4592-4023-a99c-f064d09ed532">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">édition originale</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/137658dc-97d3-4fa0-a78c-9ac308b7e61e">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">épreuve d'artiste</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-41">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">prix de la tête d'expression</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/88bcf1eb-3e7c-4e0c-b44e-b0ccae1696f4"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-29">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">morceau de réception</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/0f164841-446f-4eb7-8219-323680ff7e54"/>
+</skos:Concept>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/8717c4cd-8b2c-404a-adb6-7e97f4facd8a">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">concours</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-32">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">prix de Rome</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-35"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-33"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-34"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-37"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<skos:altLabel xml:lang="fr-fr">prix de peinture de l'académie royale</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/e8c5cb40-e40c-43b8-b301-e9dd0fdc2b5d"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/4c4f5a6e-2a51-4f46-ad76-f97c776a653c"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/68b5672f-e4d4-4902-9a22-b600113b7389">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">oeuvre primée à un concours</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-28">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">grand prix de l'école des beaux-arts de Toulouse</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/90d51e21-7af1-481d-a9f1-611d048e7f2a"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-31">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">prix de peinture d'après le modèle vivant</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ec9c6ac0-67e3-4d01-8b1e-851b46724394"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-27">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">concours du génie rural</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-26"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/263c4f97-7c5e-44d6-94f2-f4a3fb627f65"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-136">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">pastiche</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/87b05f92-2077-452e-ab52-03879a7b6a8a"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-125">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">interprétation</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/0a11f137-5c8c-4415-b7a1-71639fcbc866"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/763c6374-4c11-472d-9228-2b9532802dc6">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">oeuvre de reproduction</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-128">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">réduction</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-129"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/b809a953-0ff8-42cf-805e-2e8993d7e307"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-130">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">relevé</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/6aaca3d6-75cd-44e2-9a45-3ebb389d2701"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-137">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">retirage</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/385dd767-afb1-43eb-986b-65ca326a1f93"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-126">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">maquette de reproduction</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/8d8d7f53-2b48-4621-89b3-b182cba68d6c"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-124">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">imitation photomécanique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/2078fb5d-8798-40b3-98ac-8608de3fb987"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-135">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">reproduction</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/6da3a1c8-1090-4b02-92cd-b2d209e5af50"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-132">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">réplique</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-134"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-133"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/d1fd1590-c37d-438b-a2e0-e8ec21ac61f5"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-104">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">contretype</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/788fba1f-1d5d-4c34-9743-d33dbd5df3bd"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-131">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">répétition</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/18cf5ad2-e2a4-44d4-a20f-b7598770d4bd"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-164">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">réédition</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/1743d236-1040-473d-ab7d-7347c78f0c02"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-138">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">ricordo</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ce62e97b-7117-4979-8324-951216a16fe9"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-127">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">moulage d'édition</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/9f8131fd-2ca2-427f-b6cb-b90f1f16f0c2"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">copie</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-110"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-108"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-111"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-109"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-106"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-112"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-113"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-114"/>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-115"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-103"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/69914941-338e-4a0b-a3fa-636177a9451c"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/a5b05e74-99bf-48f0-b257-54fe4d5815d9">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">tirage d'époque</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-50">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">dessin mis aux carreaux</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-48"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/fa304393-94ed-4cde-8cb9-cfc78eeb8a88">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">dessin mis aux carreaux</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/246240f1-efb6-4010-9dca-d5cdc25aea11">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">1ère édition</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/5254f94e-6229-4186-b682-e0437003d138">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">1e édition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/b83f3760-a935-464b-b031-d56c20beb69a">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en zincographie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/03ecfec3-c1a3-42c3-a11e-9a2568b4ca51">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">traduit en sculpture</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ce62e97b-7117-4979-8324-951216a16fe9">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">ricordo</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ec9c6ac0-67e3-4d01-8b1e-851b46724394">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">prix de peinture d'après le modèle vivant</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ff07f453-e6cd-4053-98cb-a8162d897a3a">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">bon à tirer</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-59">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">carton de dentelle</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/701b5878-8a23-473b-895b-abca9885996b">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">carton de dentelle</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-64">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">carton de vitrail</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/1da217ae-8597-46b2-814a-9604fd27df86">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">carton de vitrail</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/1f98c5a9-af54-490d-80b0-6c49de88a284">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">traduit en tapisserie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-110">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">copie d'étude</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/997be8af-4670-4166-88a9-c140f6e73fc9">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">copie d'étude</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-83">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de décor de théâtre</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-82"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/49c35332-d5b5-480d-b5d3-5ecc96727fd8"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-82">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de décor éphémère</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-83"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-77"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/da5a0789-29a6-46d0-b828-640ff6e4ad30"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/49c35332-d5b5-480d-b5d3-5ecc96727fd8">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de décor de théâtre</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-174">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet d'affiche</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-76"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/93e376f4-ce50-4dab-af26-7cc3c84307c1"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-76">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet d'illustration</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-174"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/2fe624df-4a0a-4988-b899-3154d8f7fa77"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/93e376f4-ce50-4dab-af26-7cc3c84307c1">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet d'affiche</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/206e72d9-4cf9-4d14-848e-c641c3486b1c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">1er état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-108">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">contre-épreuve</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/aceb70ff-b5ba-4fd4-97e6-6fceb0332202">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">contre-épreuve</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-94">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de tapisserie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/1415a664-5db3-4cc5-b84e-bc1f57d78653"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/299e97c2-20df-4b56-ae44-08789614fd4b">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-92">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de sculpture</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/12aa15bd-de6b-4f9e-b483-213343c93bed"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-89">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de papier peint</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/de9e715e-6cde-4ee2-8616-1b77b61a6c56"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-75">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet d'architecture</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/aaf1d5b5-a299-4c03-8cc7-c13ce9c4be4c"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-171">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de forme</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/6d4d1dee-b033-4615-94e1-3075b589bcf7"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-167">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de mosaïque</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/24273a4b-cd77-46c7-a583-811f7aaa4699"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-87">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de mobilier</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/232371e2-0ea4-4907-bf9d-d680253a279e"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-74">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">modello</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/f24873b6-ebaf-4a73-86cd-92657e04e1f8"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-95">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet pour un objet</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ba7642d4-0007-4947-bd75-8b4b458da14c"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-166">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de vitrail</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/c85484d1-ac73-4065-9cc5-b2bdd4126a11"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-93">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de tapis</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-73"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/ec8a751b-4f8e-4aa9-99c4-675c7f55579b"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-22">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">première épreuve</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-8"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c515e341-cb04-48f0-b4e0-dcfc4220f828">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">première épreuve</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c9260dc2-d438-4ea9-bb84-1158810dfa2f">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en céramique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/04454023-9be9-49ae-a2e2-b6947956e0eb">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">ébauche</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/92d66c38-969a-4ce4-a5fa-0c50925b7ff8">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">3e édition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/1415a664-5db3-4cc5-b84e-bc1f57d78653">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de tapisserie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ffe41469-d8cd-4c6b-8117-ccd68c5ba445">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">2e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/36a3bc4c-0318-4d41-8b0d-d9e0d3bb8d39">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">commande</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-35">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">premier grand prix</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-32"/>
+	<skos:altLabel xml:lang="fr-fr">1er grand prix</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/9f6eef90-d397-4578-b4af-3cf7f49cd887"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/eb2c69ec-3d92-4318-b2a0-f21a1e9d51ab"/>
+</skos:Concept>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/4c4f5a6e-2a51-4f46-ad76-f97c776a653c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">prix de peinture de l'académie royale</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-33">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">prix de Rome de paysage historique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-32"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/0f039731-bd83-40c3-9ec6-3489107710de"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-34">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">prix de Rome de peinture</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-32"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/377530d3-b7f5-466e-b358-b4f092feeab1"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/e8c5cb40-e40c-43b8-b301-e9dd0fdc2b5d">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">prix de Rome</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-37">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">second grand prix</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-38"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-32"/>
+	<skos:altLabel xml:lang="fr-fr">2d grand prix</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/7726ebf6-e77e-4476-a2d5-c3445723bbd5"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/0a137789-a987-4a23-b654-33ca1e1f8c55"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-129">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">réduction mécanique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-128"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/19e88ecf-86be-4033-af04-6d6fb19d6c5b"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/b809a953-0ff8-42cf-805e-2e8993d7e307">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">réduction</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/385dd767-afb1-43eb-986b-65ca326a1f93">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">retirage</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-63">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">carton de tissu</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<skos:altLabel xml:lang="fr-fr">modèle de tissu</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/5869fb16-621d-457f-bba1-590a41f1ceef"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/f895f4bb-ee04-414c-8b08-f35d0821756c"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/5869fb16-621d-457f-bba1-590a41f1ceef">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">carton de tissu</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/f895f4bb-ee04-414c-8b08-f35d0821756c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">modèle de tissu</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-155">
+	<dct:modified>2019-10-17T09:10:08+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">oeuvre en rapport</skos:prefLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/37f86db3-ed5d-475c-9c10-be1d69f944a4">
+			<dct:modified>2019-10-17T09:10:08+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">oeuvre en rapport</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/927af08c-5220-412e-a5fc-54a16d2346bd">
+	<dct:modified>2019-10-17T09:11:26+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">objet en rapport</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/3e4b6a1f-4a31-4cc7-bbf7-a24a9abaeb06">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">photomontage</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/da5a0789-29a6-46d0-b828-640ff6e4ad30">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de décor éphémère</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-111">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">copie interprétée</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/73bffee3-822e-4bc0-bd18-4492160bbfe1">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">copie interprétée</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-23">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">épreuve unique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-8"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/8f905934-144f-422b-a3d0-defbef84c182">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">épreuve unique</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/6ccc1551-db5d-4f70-8833-5a1729511be6">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">4e édition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/0518ee52-8c72-4941-9497-79feff3bd1e8">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">pochade</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-109">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">contrefaçon</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/e82cd645-eaa4-4518-adf6-eb34bbecd0bc">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">contrefaçon</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/19e88ecf-86be-4033-af04-6d6fb19d6c5b">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">réduction mécanique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-52">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">dessin sur calque</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-48"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/dd39c65d-b5e2-4e05-8b37-d47c0d9b1d15">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">dessin sur calque</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/1f3aeff3-6c91-4161-ad8f-376b53fc4262">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en dessin</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/00ac3c42-29f6-47fc-b590-dfbfcaa0b6ff">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">pièce unique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/524d7a82-4cdc-4838-bcd3-645ec39029dc">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">marcottage</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ba7642d4-0007-4947-bd75-8b4b458da14c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet pour un objet</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/962bd2d1-79b1-4b86-a329-2f88ea4a73a0">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">3e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/0f039731-bd83-40c3-9ec6-3489107710de">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">prix de Rome de paysage historique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/01726dfe-e087-46e1-836e-5f7d25071f33">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">2e édition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/87b05f92-2077-452e-ab52-03879a7b6a8a">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">pastiche</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/8d8d7f53-2b48-4621-89b3-b182cba68d6c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">maquette de reproduction</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/aaf1d5b5-a299-4c03-8cc7-c13ce9c4be4c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet d'architecture</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-49">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">dessin incisé pour le report</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-48"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/f42fd14f-0b0e-4890-adea-661ebc8703b7">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">dessin incisé pour le report</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/e8daaffa-d354-4050-be7d-73680371cb21">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">5e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/7f427e26-bca7-4eb3-88ef-6901cd6c3898">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">état avant la dédicace</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/4537746b-97b1-42f3-8efc-6c8f5d8c6b61">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">étude</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-106">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">agrandissement</skos:prefLabel>
+	<skos:narrower rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-107"/>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/b884d6e5-ca42-4d26-a623-107d26e407f8"/>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-107">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">agrandissement mécanique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-106"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/0ce0abe9-e8ca-4b8c-87ea-f3b91e276af0"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/b884d6e5-ca42-4d26-a623-107d26e407f8">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">agrandissement</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-112">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">copie partielle</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c11b5d4c-9fa2-43ab-8545-183d8dad214a">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">copie partielle</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/9f6eef90-d397-4578-b4af-3cf7f49cd887">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">premier grand prix</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/eb2c69ec-3d92-4318-b2a0-f21a1e9d51ab">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">1er grand prix</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/de9e715e-6cde-4ee2-8616-1b77b61a6c56">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de papier peint</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/18cf5ad2-e2a4-44d4-a20f-b7598770d4bd">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">répétition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-61">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">carton de tapisserie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<skos:altLabel xml:lang="fr-fr">modèle de tapisserie</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/67718ec8-dcf9-42b7-8555-ec5b612fa8fe"/>
+	<xl:altLabel>
+		<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/7ae0be2e-328f-4382-82cf-c6ec105296be">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">modèle de tapisserie</xl:literalForm>
+		</iso-thes:SimpleNonPreferredTerm>
+	</xl:altLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/67718ec8-dcf9-42b7-8555-ec5b612fa8fe">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">carton de tapisserie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-7">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">ensemble homogène</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-5"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/79a86e88-df0d-42d2-b0c8-e23a1a854482"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/7975fe32-1095-40d6-86ab-8e017daf6e27">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">décor déposé</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-6">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">ensemble concerté</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-5"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/a7dff351-6860-4be5-a393-2e395fa1720c"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/12aa15bd-de6b-4f9e-b483-213343c93bed">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de sculpture</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/377530d3-b7f5-466e-b358-b4f092feeab1">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">prix de Rome de peinture</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/3c9466b5-930a-43e4-8d89-d27a935ed9b3">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">8e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/6da3a1c8-1090-4b02-92cd-b2d209e5af50">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduction</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c85484d1-ac73-4065-9cc5-b2bdd4126a11">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de vitrail</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/b01ba8e4-7aec-4edc-98fa-4864cbd20d64">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en peinture</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/32e3ad45-ae92-41c0-b703-ba6fcac9ef3c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">4e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/9f8131fd-2ca2-427f-b6cb-b90f1f16f0c2">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">moulage d'édition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/0ce0abe9-e8ca-4b8c-87ea-f3b91e276af0">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">agrandissement mécanique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/f24873b6-ebaf-4a73-86cd-92657e04e1f8">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">modello</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/6badb6cb-3d77-452a-94be-a48cdfd9cb6b">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">état avant la lettre</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-113">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">copie réduite</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/8612c6bf-244f-4a19-92a4-df941cc808c0">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">copie réduite</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/023ab7cc-e572-4564-874c-c430c818d8bb">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">esquisse</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/0f164841-446f-4eb7-8219-323680ff7e54">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">morceau de réception</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/88bcf1eb-3e7c-4e0c-b44e-b0ccae1696f4">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">prix de la tête d'expression</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/6aaca3d6-75cd-44e2-9a45-3ebb389d2701">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">relevé</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/a7dff351-6860-4be5-a393-2e395fa1720c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">ensemble concerté</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-60">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">carton de peinture</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c3c5fa1c-e91e-4aba-90e7-20e2609fd31e">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">carton de peinture</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-134">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">réplique agrandie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-132"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/b5816ce7-6f2c-4a5d-b257-9a2d9f8bc61d">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">réplique agrandie</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/24273a4b-cd77-46c7-a583-811f7aaa4699">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de mosaïque</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/332c0547-843b-404f-9388-b560b770ff52">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en lithographie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ec8a751b-4f8e-4aa9-99c4-675c7f55579b">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de tapis</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/12a350c8-251c-40bb-9c5e-6fabeecb776f">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">9e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-67">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">modèle original</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<skos:altLabel xml:lang="fr-fr">original</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/03deed39-ae9d-44e9-ad04-5c88847ba8b3"/>
+	<xl:altLabel>
+		<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c61f91fe-bea6-44ee-9984-056ff0360908">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">original</xl:literalForm>
+		</iso-thes:SimpleNonPreferredTerm>
+	</xl:altLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/03deed39-ae9d-44e9-ad04-5c88847ba8b3">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">modèle original</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/2078fb5d-8798-40b3-98ac-8608de3fb987">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">imitation photomécanique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/1743d236-1040-473d-ab7d-7347c78f0c02">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">réédition</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/9276e305-35c5-4fde-a9b5-8e96b44a6fc3">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">croquis</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-81">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet de décor de céramique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-77"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/5a5ee021-7bf6-40a4-9b8c-63297448e58f"/>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/e896a404-fdaf-4562-84cc-bf97dc677b9f">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de décor</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-170">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">projet d'éventail</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-77"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/1cbfb0d9-88b2-4c6c-964c-d8b5b44a7f72"/>
+</skos:Concept>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ab652ee4-b366-4a6a-b30e-eb82e4984922">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de décoration</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/232371e2-0ea4-4907-bf9d-d680253a279e">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de mobilier</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-114">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">copie servile</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ffcc4253-c507-4700-8fe9-f77616be67c1">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">copie servile</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-38">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">premier second grand prix</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-37"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/00c2c238-3bfb-41a8-b442-6e4cf259c9b6"/>
+</skos:Concept>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/0a137789-a987-4a23-b654-33ca1e1f8c55">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">2d grand prix</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/7726ebf6-e77e-4476-a2d5-c3445723bbd5">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">second grand prix</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/90d51e21-7af1-481d-a9f1-611d048e7f2a">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">grand prix de l'école des beaux-arts de Toulouse</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/788fba1f-1d5d-4c34-9743-d33dbd5df3bd">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">contretype</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-133">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">réplique réduite</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-132"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/4d45e0b3-2639-4832-88c7-2d0da8d238bd">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">réplique réduite</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/71227a3e-9504-486f-be28-69ca0edba51e">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">traduit en dentelle</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/79a86e88-df0d-42d2-b0c8-e23a1a854482">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">ensemble homogène</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/b0dc14e2-b41b-4faa-b0dc-653b34960e0f">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en photographie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/1cbfb0d9-88b2-4c6c-964c-d8b5b44a7f72">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet d'éventail</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/190f8eab-1b36-4790-9347-f6325741c807">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">7e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/59e6c651-aa7e-4f9d-a36e-6af019b5c27f">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">dessin pour le report</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/2fe624df-4a0a-4988-b899-3154d8f7fa77">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet d'illustration</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/0a11f137-5c8c-4415-b7a1-71639fcbc866">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">interprétation</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/00c2c238-3bfb-41a8-b442-6e4cf259c9b6">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">premier second grand prix</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/263c4f97-7c5e-44d6-94f2-f4a3fb627f65">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">concours du génie rural</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-115">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">d'après l'antique</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-105"/>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel>
+		<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/df9891a2-fb07-4b73-92b0-19a1a6f6926f">
+			<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+			<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">d'après l'antique</xl:literalForm>
+		</iso-thes:PreferredTerm>
+	</xl:prefLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/69914941-338e-4a0b-a3fa-636177a9451c">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">copie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/6d4890be-9fa3-436b-94dc-2e3ff98bdf20">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">modèle</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/2ca2de38-c9b0-4a81-aeae-3ae3397f58b2">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">poncif</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-57">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">carton de broderie</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-56"/>
+	<skos:altLabel xml:lang="fr-fr">modèle de broderie</skos:altLabel>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/2860c778-b216-4cca-b444-16734e8c3196"/>
+	<xl:altLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/08099f24-ca6e-48a5-ab5e-a807fc760cf8"/>
+</skos:Concept>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/548b2ba9-ea00-496e-af01-5eba57201f52">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">carton</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/08099f24-ca6e-48a5-ab5e-a807fc760cf8">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">modèle de broderie</xl:literalForm>
+</iso-thes:SimpleNonPreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/2860c778-b216-4cca-b444-16734e8c3196">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">carton de broderie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/d1fd1590-c37d-438b-a2e0-e8ec21ac61f5">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">réplique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/70de4f16-c0ff-47ca-a0ad-987765850170">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">traduit en ébénisterie</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/5a5ee021-7bf6-40a4-9b8c-63297448e58f">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de décor de céramique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/6d4d1dee-b033-4615-94e1-3075b589bcf7">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">projet de forme</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/ce0b7e2c-317b-44e7-8f01-e96bd929e633">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">épreuve</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/86a50378-da94-46c5-88b3-f10f33200c3e">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">reproduit en procédé photomécanique</xl:literalForm>
+</iso-thes:PreferredTerm>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/a3638828-4405-4cce-a7c9-3f1e2c946594">
+	<dct:modified>2013-07-05T00:00:00+02:00</dct:modified>
+	<dct:created>2013-07-05T11:43:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">6e état</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/73cf62a1-c0b4-4e5e-9f62-9145b92fe7d7">
+	<dct:modified>2019-10-16T12:04:57+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">édition revue et augmentée</skos:prefLabel>
+	<skos:broader rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506-116"/>
+	<skos:altLabel xml:lang="fr-fr">éd. rev.et augm.</skos:altLabel>
+	<dct:created>2019-10-16T12:04:01+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/d1575bc1-92ee-410e-95bd-ca661701a1f3"/>
+	<xl:altLabel>
+		<iso-thes:SimpleNonPreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/50def715-adf8-49f6-ab03-4bfb2647f1b0">
+			<dct:modified>2019-10-16T12:04:57+02:00</dct:modified>
+			<dct:created>2019-10-16T12:04:01+02:00</dct:created>
+			<iso-thes:status>1</iso-thes:status>
+			<xl:literalForm xml:lang="fr-fr">éd. rev.et augm.</xl:literalForm>
+		</iso-thes:SimpleNonPreferredTerm>
+	</xl:altLabel>
+</skos:Concept>
+<iso-thes:PreferredTerm rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/d1575bc1-92ee-410e-95bd-ca661701a1f3">
+	<dct:modified>2019-10-16T12:04:57+02:00</dct:modified>
+	<dct:created>2019-10-16T12:01:53+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:literalForm xml:lang="fr-fr">édition revue et augmentée</xl:literalForm>
+</iso-thes:PreferredTerm>
+<skos:Concept rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/2b2b0a9a-8d0b-4ee4-939d-2d4899bc0584">
+	<dct:modified>2019-10-17T09:11:26+02:00</dct:modified>
+	<skos:inScheme rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/T506"/>
+	<skos:prefLabel xml:lang="fr-fr">objet en rapport</skos:prefLabel>
+	<dct:created>2019-10-17T09:11:06+02:00</dct:created>
+	<iso-thes:status>1</iso-thes:status>
+	<xl:prefLabel rdf:resource="http://data.culture.fr/thesaurus/resource/ark:/67717/927af08c-5220-412e-a5fc-54a16d2346bd"/>
+</skos:Concept>
+<foaf:Organization rdf:nodeID="node1dn1djtumx19">
+	<foaf:name>Service des musées de France</foaf:name>
+	<foaf:homepage>http://www.culture.gouv.fr/documentation/joconde/fr/pres.htm</foaf:homepage>
+	<foaf:mbox>joconde@culture.gouv.fr</foaf:mbox>
+</foaf:Organization>
+
+</rdf:RDF>
